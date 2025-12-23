@@ -159,7 +159,7 @@ const {userDetails,setUserDetails} = UseAuthContext()
  <div  className="h-4 w-full" >{errors.password && <p className="h-full w-full flex justify-items-start items-center font-1xl text-red-500 " >{errors.password.message}</p>}</div>
         {/* Info Text */}
         <p className="text-[11px] text-gray-500 mb-2">
-          People who use our service may have uploaded your contact information to Facebook. <a href="#" className="text-blue-600 hover:underline">Learn more.</a>
+          People who use our service may have uploaded your contact information to Pitchcraft. <a href="#" className="text-blue-600 hover:underline">Learn more.</a>
         </p>
 
         <p className="text-[11px] text-gray-500 mb-4">
@@ -184,3 +184,4 @@ const {userDetails,setUserDetails} = UseAuthContext()
 };
 
 export default Signup;
+
