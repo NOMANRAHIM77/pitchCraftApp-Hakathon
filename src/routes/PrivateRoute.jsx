@@ -4,7 +4,7 @@ import { useState,useEffect } from "react";
 
 // firebase 
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "../fireBase";
+import { auth } from "../firebase";
 
 
 function PrivateRoute({children}) {
@@ -24,6 +24,7 @@ function PrivateRoute({children}) {
 
   return user ? children : <Navigate to="/login" replace />;
 }
+
 
 
 export default PrivateRoute
